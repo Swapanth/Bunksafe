@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Container, CssBaseline } from '@mui/material';
-import AttendanceAnalysis from './components/AttendanceAnalysis';
+import AttendanceAnalysis from './components/upload/AttendanceAnalysis.js';
 import { HomeRoutes } from "./routes/routes.jsx";
 import App from './components/Frontpage/App.js';
 
@@ -13,7 +13,7 @@ root.render(
       <App />
       <CssBaseline />
       <Container>
-        <AttendanceAnalysis />
+        {/* <AttendanceAnalysis /> */}
       </Container>
       <HomeRoutes />
     </>
